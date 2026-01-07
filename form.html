@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="header">LET'S CONNECT</div>
+    <p class="prag">_______follow me_________</p>
+  </header>
+
+
+  <nav class="nav-one">
+    <ul>
+        <li><a href="life.html">ABOUT ME</a></li>
+        <li><a href="todo.html">ACHIVEMENTS</a></li>
+        <li><a href="index.html">BIOGRAPHY</a></li>
+        <li><a href="skill.html">SKILLS</a></li>
+        <li><a href="form.html">FEEDBACK</a></li>
+    </ul>
+    </nav>
+  <main>
+    
+<div class="form">
+    <form action="thank.html" method="post">
+        
+<div class="form-one">
+            <label for="name">Name:</label>
+            <input class="aform" type="text"  placeholder="Marhaba" name="name" id="name" 
+            required minlength="2" />
+</div >
+
+<div class="form-one">
+        <label for="Phone-number">Phone number:</label>
+        <input  class="aform" type="tel" name="Phone-number" id="Phone-number" minlength="10" maxlength="100"  />
+</div>
+
+<div class="form-one">
+        <label for="email">Email:</label>
+        <input  class="aform" type="email" placeholder="marhabaayuby7@gmail.com" name="email" id="email"/>
+</div>
+
+<div class="form-two">
+          <!--this tag for mutipul choise-->
+          <label>What is the reason for contacting:</label>
+          <input type="radio" name="ali" required id="i have a question" value="i have a question"/>
+          <label class="form-two" for="i have a question"> I have a question</label> 
+
+          <input type="radio" name="ali" required  id="i have feedback" value="i have feedback"/>
+          <label class="form-two"  for="i have feedback">I have feedback </label>
+
+          <input  type="radio" name="ali" required id="just i saying hi" value="just i saying hi"/>
+          <label class="form-two" for="just i saying hi">Just I saying hi</label>
+
+</div>
+
+<div class="form-one">
+         <!--this tag use for more info about moultypul choise-->
+         <label for="website">which part of the website did you kike the most:</label>
+         <select name="website" id="website">
+        <option value="about me">About Me</option>
+        <option value="skills">Skills</option>
+        <option value="achivements">Achivements</option>
+        <option value="contact-form">Contactform</option>
+        </select>
+</div>
+
+
+<div>       
+          <label>How would you like to be contact?</label>
+          <input type="checkbox" name="email"  id="my-email" value="my-email"/>
+          <label class="form-two" for="my-email"> Email</label> 
+
+          <input type="checkbox" name="Phone" id="Phone" id="Phone" value="Phone"/>
+          <label class="form-two"  for="Phone">Phone</label>
+
+          <input  type="checkbox" name="Whats-up" id="Whats-up" value="Whats-up"/>
+          <label class="form-two" for="Whats-up">Whats up</label>
+
+          <input  type="checkbox" name="telegram" id="telegram" value="telegram"/>
+          <label class="form-two" for="telegram">Telegram</label>
+</div>
+
+<div>
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments"></textarea>
+</div>            
+<div class="form-five">
+         <button type="submit">send</button>
+</div>
+
+    </form>
+</div>
+</main>
+<footer>
+    
+        <h1>Thank you for visiting my world of creativity</h1>
+        <h2>Contact me here </h2>
+        <div class="footer">
+        <a href="mailto:marhabaayuby7@gmail.com">marhabaayuby7@gmail.com</a>
+        </div>
+    </footer>
+</body>
+</html>
